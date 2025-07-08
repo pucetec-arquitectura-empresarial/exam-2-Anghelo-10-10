@@ -13,5 +13,8 @@ data class Ticket_Entry(
     @JoinColumn(name = "ticket_id", nullable = false)
     var ticket: ParkingEntry,
 
+    
+
+
 
 ) : BaseEntity()
